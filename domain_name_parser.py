@@ -15,8 +15,3 @@ def domain_url(url):
         domain += url[i]
 
     return domain
-
-print(domain_url("https://www.google.com"))
-print(domain_url("https://github.com"))
-print(domain_url("http://www.zombie-bites.com"))
-print(domain_url("https://www.cnet.com"))
